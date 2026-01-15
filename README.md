@@ -23,6 +23,8 @@ This project focuses on Arabic social media text classification to detect offens
 	•	Class imbalance handled during training
 	•	LoRA adapters used for efficient fine-tuning
 	•	Predictions generated for real Twitter data.
+    • Auxiliary files (prompt template, bad words list, and evaluation reports) are included to support Qwen inference and evaluation.
+
 
 ## Evaluation
 	•	Models evaluated using accuracy, precision, recall, and F1-score.
@@ -35,6 +37,11 @@ This project focuses on Arabic social media text classification to detect offens
 	•	Arabic.csv – Labeled training dataset
 	•	merged_twitterdata.csv – Real unlabeled data
 	•	merged_twitterdata with human classification.csv – Human annotations
+    • bad_words.json – List of offensive terms used for filtering and strict evaluation
+    • prompt_template.txt – Prompt template used for Qwen3 inference
+    • generate_eval_results_strict.csv – Evaluation results (strict setting)
+    • test_generate_report_strict.json – Test split evaluation report
+    • validation_generate_report_strict.json – Validation split evaluation report
 
   
 ## Notes
