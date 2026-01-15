@@ -36,9 +36,25 @@ This project focuses on Arabic social media text classification to detect offens
 	•	merged_twitterdata.csv – Real unlabeled data
 	•	merged_twitterdata with human classification.csv – Human annotations
 
+## Running the Notebooks
+
+Due to Google Colab–specific outputs and widgets, GitHub may not render the Jupyter notebooks correctly and may display them as "Invalid Notebook".
+
+All notebooks are intended to be opened and executed using Google Colab.
+
+Please use the links below to view and run the notebooks:
+
+- AraBERT Model (Training & Inference):
+  https://colab.research.google.com/github/USERNAME/REPO_NAME/blob/main/Social_media_intelligence_update3_MOI_NewCode.ipynb
+
+- Qwen3 Fine-Tuned Model:
+  https://colab.research.google.com/github/USERNAME/REPO_NAME/blob/main/Qwen3_Arabic_Offensive_Train_Clean.ipynb
+
+  
 ## Notes
 	•	All experiments are conducted on Arabic text.
 
+	
   ## Group 2 – Social Media Intelligence Project
 
    Raghad Ghawa - Allulo Alnassar - Hissah Alsuqayh -  Amjaad aldawsari - Alanoud Aleisa  - Nehal Alhablani
