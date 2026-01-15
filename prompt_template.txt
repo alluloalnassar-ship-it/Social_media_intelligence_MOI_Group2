@@ -1,8 +1,0 @@
-You are an Arabic content moderation system.
-Classify the following text as "offensive" if it contains insults, profanity, or abusive language,
-even if it appears within a discussion or argument. Otherwise, classify it as "not".
-
-Text:
-{TEXT_HERE}
-
-Answer:
